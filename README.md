@@ -25,10 +25,45 @@ version: 03/11/2022
 * Vercel
 * Visual Studio Code
 
-## Features
+## External API's
 
+### Mapbox 
+
+Create account -> Get Token 
+
+```URL
+  https://www.mapbox.com/
+```
+* Create Token
+- Give it a name e.g. (home-lookup)
+- After deploy (optional) insert your URL in case you want Token restrictions applied.
+- Create Token
+* Access Token
+- Copy & Paste (Key)
+* Local environment variables 
+- Paste key into `.env.local` file of your project.
 ---
 
+### Firebase 
+
+Authentication -& Google Places 
+
+```URL
+  https://firebase.google.com/
+```
+* Create Project
+- Give it a name e.g. (home-lookup)
+- Enable Google Analytics on this project is optional (Recommended).
+- Click Create and then Continue. After loading It will take you to the Project's Dashboard.
+- Go to left side Menu *Build -> Authentication - Let's start*.
+- Choose sign-in providers (Email, Google, Github, Yahoo and so on..). - *Enable -> Save*. then *add new provider*.
+* Access Project settings
+- Go to upper-right corner in settings.
+- Copy Web API key | project ID |
+* Local environment variables 
+- Paste key into `.env.local` file of your project.
+
+---
 ## Setup Locally / Installation Requirements
 
 Clone the project
