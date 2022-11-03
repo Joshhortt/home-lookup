@@ -1,3 +1,5 @@
+// WHERE IS THE GRAPHQL ENDPOINT THAT HANDLES EVERYTHING
+
 // import "reflect-metadata";
 // import { NextApiRequest } from "next";
 // import { ApolloServer } from "apollo-server-micro";

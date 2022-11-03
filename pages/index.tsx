@@ -1,3 +1,5 @@
+// THIS IS THE HOME PAGE
+
 // import { useState } from "react";
 // import { useQuery, gql } from "@apollo/client";
 // import { useDebounce } from "use-debounce";

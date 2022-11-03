@@ -1,3 +1,5 @@
+// SIGN-UP & SIGN-IN PAGE
+
 // import Layout from "src/components/layout";
 // import FirebaseAuth from "src/components/firebaseAuth";
 // import { GetServerSideProps, NextApiRequest } from "next";

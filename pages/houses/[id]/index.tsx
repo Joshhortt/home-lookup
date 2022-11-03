@@ -1,3 +1,5 @@
+// WHERE WE CAN SHOW OR VIEW A HOUSE 
+
 // import { useRouter } from "next/router";
 // import { Image } from "cloudinary-react";
 // import { useQuery, gql } from "@apollo/client";

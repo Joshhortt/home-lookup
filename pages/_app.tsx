@@ -1,3 +1,5 @@
+// COMPONENT THAT RENDERS MANY PAGES
+
 import { AppProps } from "next/app";
 // import Head from "next/head";
 // import { ApolloProvider } from "@apollo/client";

@@ -34,11 +34,8 @@ Create account -> Get Token
 **Create Token**
 - Give it a name e.g. (home-lookup)
 - After deploy (optional) insert your URL in case you want Token restrictions applied.
-- Create Token
-**Access Token**
-- Copy & Paste (Key)
-**Local environment variables** 
-- Paste key into `.env.local` file of your project.
+- Now **Create Token** --> **Access Token** 
+- Copy & Paste (Key) into `.env.local` file of your project.
 ---
 ### Firebase 
 Authentication -& Google Places 
@@ -52,16 +49,15 @@ Authentication -& Google Places
 - After loading It will take you to the Project's Dashboard.
 - Go to left side Menu **Build -> Authentication - Let's start**
 - Choose sign-in providers (Email, Google, Github, Yahoo and so on..).
-- Enable -> Save -> then **add new provider**
-**Access Project settings**
-- Go to upper-right corner in settings.
-**General**
-- Copy Web API key | project ID | project ID + firbaseapp.com
-**Local environment variables**
+- Enable -> Save -> then **add new provider** 
+- Go to upper-right corner in settings --> **General**
+- Copy Web API key | project_ID | project_ID.firbaseapp.com
 - Paste key into `.env.local` file of your project.
-**Service accounts**
-- Below click on **generate new private key** -> **generate key**
-- It will download a 'JSON' file. You can paste it into your projects root directory
+- Now back to firebase in **Service accounts**
+- Below click on **generate new private key** --> **generate key**
+- It will download a 'JSON' file. You can paste it into your projects root directory.
+- Remove this file after adding all the keys into your `.env.local` file.
+- Also don´t push it to github.
 - Go to the file you just downloaded and copy the `private_key` + `client_email`
 - Paste those keys into `.env.local` file of your project.
 ---
@@ -70,16 +66,15 @@ Authentication & Google Places
 ```URL
   https://console.developers.google.com/
 ```
+- **IMPORTANT:** You might have to register before all these steps on Google Cloud Free tier.
 **Search Project**
 - See if project ID matches and is correct.
-**API & Services**
-- Go to Library
-**We need to enable 3 different services**
-- Places API - Enable ! Maps Javascript API - Enable | Geocoding API - Enable
-**API & Services activated**
-- Check if you have all three serviçes activated
-**Note that:**
-- You might have to register before all these steps on Google Cloud Free tier.
+- Go to **API & Services**
+- Go to **Library** 
+- We need to enable **3 different services**
+- **Places API** ! **Maps Javascript API** | **Geocoding API** 
+- Go to **API & Services activated** - Check if serviçes activated
+
 ### Cloudinary 
 
 Image Hosting 
@@ -89,8 +84,8 @@ Image Hosting
 ```
 **Dashboard**
 - Go to **Account Details** 
-- Copy **API Secret** | and | **API Key** | and | **Cloud Name** | and then
-- paste those into your `.env.local` file at the root of the `./` directory.
+- Copy **API Secret** | **API Key** | **Cloud Name** | and then paste 
+- those into your `.env.local` file at the root of the `./` directory.
 ---
 ### Heroku
 
@@ -100,13 +95,11 @@ Database
   https://heroku.com/
 ```
 **Dashboard**
-- Go to **New** --> **Create new app** 
-**Overview**
-- Installed add-ons --> Configure add-ons 
+- Go to **New** --> **Create new app** --> **Overview**
+- Installed **add-ons** --> **Configure add-ons**
 - Go to **ass-ons search bar** and look for **Heroku postgres**
 - Choose your Plan name e.g. **Hobby Dev - Free** --> **Submit Order Form**
-- After The add-on heroku-postgresql has been installed go to:
-**Settings**
+- After The add-on heroku-postgresql has been installed go to **Settings**
 - Go to **Config Vars** --> **Reveal Config Vars** it gives you a connection string
 - Copy and then paste into your `.env.local` file at the root of the `./` directory.
 
@@ -164,11 +157,11 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm run dev
 
   or 
 
-  yarn run
+  yarn dev
 ```
 
 ---

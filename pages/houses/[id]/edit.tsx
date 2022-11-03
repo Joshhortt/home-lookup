@@ -1,3 +1,5 @@
+// WHERE WE CAN EDIT A HOUSE FUNCTIONALIT
+
 // import { GetServerSideProps, NextApiRequest } from "next";
 // import { useRouter } from "next/router";
 // import { useQuery, gql } from "@apollo/client";

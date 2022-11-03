@@ -1,3 +1,5 @@
+// WHERE WE CAN ADD A HOUSE
+
 // import { GetServerSideProps, NextApiRequest } from "next";
 // import { loadIdToken } from "src/auth/firebaseAdmin";
 // import Layout from "src/components/layout";
