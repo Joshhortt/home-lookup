@@ -1,22 +1,35 @@
 # Home Lookup 🏠
 
-A Full-stack Nextjs, Typescript, React & GraphQL application.
+A Full-stack Home Lookup application.
 
-You can check the app here: https://
+#### By _**Josh Hortt**_
+version: 03/11/2022
 
-![App Screenshot](https://.png)
+## Home Lookup 🎧 🔊 | [Live Link](https://vercel.com/)
+## Technologies Used
 
-## Technologies
-I' ll create a full stack Next.js application using:
-
-Next.js React, TypeScript, Hooks, Tailwind, Prisma, Postgres, TypeGraphQL, Apollo Client, Apollo Server, Firebase Auth, Mapbox, Google Places, Cloudinary, Vercel.
----
+* JavaScript
+* React.js
+* Next.js
+* Tailwind
+* Prisma
+* Postgres
+* TypeGraphQL
+* Apollo Server & Apollo Client
+* Firebase
+* Auth
+* Hooks
+* Mapbox
+* Google Places
+* Cloudinary
+* Vercel
+* Visual Studio Code
 
 ## Features
 
 ---
 
-## Run Locally
+## Setup Locally / Installation Requirements
 
 Clone the project
 
@@ -32,10 +45,9 @@ Go to the project directory
 
 ### Environment Variables
 
-To run firebase, mapbox and cloudinary you will need to add the following environment variables to your `.env` file at the root of the `./` directory.
+To run firebase, mapbox and cloudinary you will need to add the following environment variables to your `.env.local` file at the root of the `./` directory.
 
 ```
-#### .env.local
 NEXT_PUBLIC_MAPBOX_API_TOKEN=""
 
 NEXT_PUBLIC_FIREBASE_API_KEY=""
@@ -79,9 +91,18 @@ Start the server
 
 ---
 
-## This file is under construction 👷‍♂️ 🏗 🚜 🚧
+## Known Bugs
+Due to time constraints the site may not scale perfectly on every device.
 
-![Under Construction]()
+## Support and contact details
+If you have any questions or find any issues with this web-application, get in touch.
+My email is: joshhortt@yahoo.com
+
+### License
+**MIT License** Copyright (c) 2022 Josh Hortt
+
+# Project Demo 
+<img src='' />
 
 
 
