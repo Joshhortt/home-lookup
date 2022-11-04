@@ -66,7 +66,8 @@ Authentication & Google Places
 ```URL
   https://console.developers.google.com/
 ```
-- **IMPORTANT:** You might have to register before all these steps on Google Cloud Free tier.
+- **IMPORTANT:** You might have to register before all these steps on Google Cloud Free tier.<br/>
+
 **Search Project**
 - See if project ID matches and is correct.
 - Go to **API & Services**
