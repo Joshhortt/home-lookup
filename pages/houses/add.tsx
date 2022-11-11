@@ -1,13 +1,13 @@
 // WHERE WE CAN ADD A HOUSE
 
 import { GetServerSideProps, NextApiRequest } from "next";
-// import { getServerSideProps } from "pages/auth";
 import { loadIdToken } from "src/auth/firebaseAdmin";
 import Layout from "src/components/layout";
 import HouseForm from "src/components/houseForm";
 
 export default function Add() {
-  return <div>Add</div>;
+return <Layout main={<HouseForm />} />;
+  // return <div>Add</div>;
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
@@ -19,5 +19,5 @@ export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
     res.end();
   }
 
-  return { props: {} }
-}
+  return { props: {} };
+};
